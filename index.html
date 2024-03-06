@@ -7,8 +7,10 @@
     <title>DEVSOC</title>
   </head>
   <body>
-    <div id="preloader"></div>
+    <canvas id="bg" style="background-color: transparent; z-index: -1; position: fixed; top: 0; left: 0; width: 100pt; height: 100pt;"></canvas>
+  
     <div class="loader">
+      
       <div class="loader-clip clip-top">
         <div class="marquee">
           <div class="marquee-container">
@@ -20,6 +22,7 @@
           </div>
         </div>
       </div>
+      
       <div class="loader-clip clip-bottom">
         <div class="marquee">
           <div class="marquee-container">
@@ -31,6 +34,7 @@
           </div>
         </div>
       </div>
+      
       <div class="clip-center">
         <div class="marquee">
           <div class="marquee-container">
@@ -42,6 +46,8 @@
           </div>
         </div>
       </div>
+    
+
     </div>
     <div class="container">
       <div class="nav">
@@ -58,6 +64,7 @@
         <p>EST 2024</p>
       </div>
     </div>
+  
     <script type="module" src="/main.js"></script>
   </body>
 </html>

@@ -2,12 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #eee;
 }
 
 html, body {
   margin: 0;
   padding: 0;
-  background: #fff;
+  background-color: transparent;
 }
 
 .loader {
@@ -53,6 +54,10 @@ html, body {
   mix-blend-mode: difference;
   font-size: 16vw;
 }
+/* 
+.nav-items{
+  color: #eee;
+} */
 
 .marquee-container {
   width: 100%;
@@ -104,9 +109,16 @@ html, body {
 
 .nav-items a {
   text-decoration: none;
-  color: #000;
 }
 
 .nav-items a:not(:last-child) {
   padding-right: 4em;
+}
+
+span{
+  margin: 3rem;
+}
+
+canvas{
+  background-color: #111;
 }
