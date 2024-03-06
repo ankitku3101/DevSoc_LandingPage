@@ -1,16 +1,6 @@
 import './style.css';
 import gsap from 'gsap';
 
-document.addEventListener("DOMContentLoaded", function() {
-  // Hide the preloader when the page is fully loaded
-  gsap.to("#preloader", { duration: 1, opacity: 0, onComplete: removePreloader });
-});
-
-// Function to remove the preloader from the DOM
-function removePreloader() {
-  document.getElementById("preloader").style.display = "none";
-}
-
 gsap.from(".clip-top, .clip-bottom", {
   duration: 2,
   delay: 1,
